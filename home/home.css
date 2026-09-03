@@ -222,3 +222,34 @@ a {
     padding: 0 120px;
     color: var(--branco);
 }
+
+/** ************* TOP LIVROS RECOMENDADOS ************* */
+
+.engloba-livros {
+    display: flex;
+    gap: 50px;
+}
+
+.livros {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 100%;
+}
+
+.livros h3 {
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.livros h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.livros-img img {
+    width: 200px;
+    height: 300px;
+}
+
