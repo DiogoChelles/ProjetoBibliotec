@@ -19,7 +19,8 @@ a {
 
     padding: 0 120px;
 
-    height: 10vh; /* 10% da visualização vertical do dispositivo/navegador */
+    height: 10vh;
+    /* 10% da visualização vertical do dispositivo/navegador */
 }
 
 .navegacao {
@@ -47,7 +48,7 @@ a {
     background-size: cover;
 
     /* background-repeat: no-repeat; */
-    
+
     /* overflow: hidden; evita que os elementos transbordem */
 
     display: flex;
@@ -58,8 +59,9 @@ a {
 }
 
 .texto-banner {
-    height: 100%; /* para centralizar o container, é preciso que ele tenha 100% do tamanho do pai */
-    
+    height: 100%;
+    /* para centralizar o container, é preciso que ele tenha 100% do tamanho do pai */
+
     display: flex;
     flex-direction: column;
 
@@ -138,7 +140,7 @@ a {
     gap: 10%;
 
     justify-content: center;
-    
+
 }
 
 .beneficio {
@@ -149,7 +151,8 @@ a {
     align-items: center;
     justify-content: center;
 
-    padding: 80px 20px 50px; /* em cima -> direita e esquerda -> em baixo */
+    padding: 80px 20px 50px;
+    /* em cima -> direita e esquerda -> em baixo */
 
     border: 1px solid var(--azul-escuro);
     border-radius: 30px;
@@ -224,7 +227,7 @@ a {
 }
 
 /** ************* TOP LIVROS RECOMENDADOS ************* */
-
+/* 
 .engloba-livros {
     display: flex;
     gap: 50px;
@@ -241,6 +244,7 @@ a {
     margin-top: 10px;
     width: 70%;
     text-align: center;
+    height: 90%;
 }
 
 .livros h4 {
@@ -251,5 +255,132 @@ a {
 .livros-img img {
     width: 200px;
     height: 300px;
+    object-fit: cover;
 }
 
+/* ******************* FOOTER ************************ */
+
+/* footer {
+    padding: 20px;
+}
+
+.logos img {
+    object-fit: fill;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.rodape {
+    background-color: #26333d;
+    display: grid;
+    padding: 50px 170px;
+    padding-top: 150px;
+    margin-top: 80px;
+}
+
+.footer-partedecima {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape span {
+    display: flex;
+    width: 100%;
+    margin: 90px auto 55px auto;
+    height: 1px;
+    background-color: var(--branco);
+}
+
+.rodape-lado-direito {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    gap: 80px 150px;
+    align-items: center;
+}
+
+.rodape-lado-direito h3 {
+    color: #2fd6cb;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.rodape-lado-direito p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.rodape-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logos-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-cantodireito {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.rodape-texto-finaldapag p {
+    color: white;
+    font-weight: 300;
+}
+
+.rodape-texto-finaldapag {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* ******************* CODIGO PROF ************************ */
+/** ************* TOP LIVROS RECOMENDADOS ************* */
+
+.acervo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 100px;
+    padding: 50px 120px;
+}
+
+.livros {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 5%;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.livro img {
+    height: 300px;
+}
+
+.livro h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 65%;
+}
+
+.livro-texto {
+    font-size: 0.8em;
+}
