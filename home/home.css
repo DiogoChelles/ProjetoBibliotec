@@ -6,9 +6,9 @@
     background-image: url(../imgs/banner-principal-home.png);
     background-size: cover;
 
-    /* background-repeat: no-repeat; */
+    /** background-repeat: no-repeat; */
 
-    /* overflow: hidden; evita que os elementos transbordem */
+    /** overflow: hidden; evita que os elementos transbordem */
 
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
 
 .texto-banner {
     height: 100%;
-    /* para centralizar o container, é preciso que ele tenha 100% do tamanho do pai */
+    /** para centralizar o container, é preciso que ele tenha 100% do tamanho do pai */
 
     display: flex;
     flex-direction: column;
@@ -111,18 +111,18 @@
     justify-content: center;
 
     padding: 80px 20px 50px;
-    /* em cima -> direita e esquerda -> em baixo */
+    /** em cima -> direita e esquerda -> em baixo */
 
     border: 1px solid var(--azul-escuro);
     border-radius: 30px;
 
-    /* x -> y -> blur (desfoque) -> cor com transparência */
+    /** x -> y -> blur (desfoque) -> cor com transparência */
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
 
     text-align: center;
 
-    /* Cria referência de posicionamento para o ícone, quando o ícone for posicionado usa esse card como referência */
-    /* sem isso, o círculo poderia usar outro elemento da página como referência e sair passeando pelo layout */
+    /** Cria referência de posicionamento para o ícone, quando o ícone for posicionado usa esse card como referência */
+    /** sem isso, o círculo poderia usar outro elemento da página como referência e sair passeando pelo layout */
     position: relative;
 }
 
@@ -139,22 +139,22 @@
     width: 30%;
     height: 30%;
 
-    /* Retira o ícone do fluxo normal. Com o absolute ele pode ficar por cima do card */
+    /** Retira o ícone do fluxo normal. Com o absolute ele pode ficar por cima do card */
     position: absolute;
 
-    /* Move o elemento para cima. O valor negativo faz ele sair parcialmente do card */
+    /* *Move o elemento para cima. O valor negativo faz ele sair parcialmente do card */
     top: -15%;
 
-    /* Coloca o começo do elemento (da esquerda pra direita) em 50% da largura do card (linha horizontal de cima para baixo)*/
+    /** Coloca o começo do elemento (da esquerda pra direita) em 50% da largura do card (linha horizontal de cima para baixo)*/
     left: 50%;
 
-    /* ajustamos o posicionamento do elemento em 50% da largura do card */
+    /** ajustamos o posicionamento do elemento em 50% da largura do card */
     transform: translateX(-50%);
 
-    /* ajustamos o posicionamento do elemento, mas a borda esquerda do circulo fica no centro, não o círculo inteiro */
+    /** ajustamos o posicionamento do elemento, mas a borda esquerda do circulo fica no centro, não o círculo inteiro */
     display: grid;
 
-    /* place-items: center; é a mesma coisa que colocar alignt-items: center; e justify-items: center; */
+    /** place-items: center; é a mesma coisa que colocar alignt-items: center; e justify-items: center; */
     place-items: center;
 }
 
@@ -170,7 +170,7 @@
     width: 80%;
 }
 
-/* BANNER MEIO */
+/** BANNER MEIO */
 
 .banner-meio {
     height: 60vh;
@@ -184,6 +184,8 @@
     padding: 0 120px;
     color: var(--branco);
 }
+
+/* ******************* MEU CÓDIGO ************************ */
 
 /** ************* TOP LIVROS RECOMENDADOS ************* */
 /* 
@@ -300,7 +302,8 @@
     justify-content: space-between;
 } */
 
-/* ******************* CODIGO PROF ************************ */
+/* ******************************************************************** */
+
 /** ************* TOP LIVROS RECOMENDADOS ************* */
 
 .acervo {
